@@ -1,31 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./homes.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="./house.css" />
+
     <title>This Apartments Website</title>
+  </head>
+  <body>
+    <header>
+      <div class="icons">
+        <ul>
+          <li>
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
 
-</head>
-<body>
-      <header>
-
-      </header>
-
-      <div>
-        
-        <nav>
-
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-
-            </ul>
-        </nav>
+        <div class="icon_info">
+          <p><i class="fa-solid fa-phone"></i>+(678)9876545</p>
+          <p><i class="fa-solid fa-envelope"></i>houzez@favethemes.com</p>
+        </div>
       </div>
-</body>
+    </header>
+
+    <section class="apartments_section">
+        <div class="apartment">
+
+        
+      <div class="logo">
+        <p class="houz"><i class="material-symbols-outlined" >
+            location_on
+        </i>houzez</p>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT US</a></li>
+          <li><a href="">LISTINGS</a></li>
+          <li><a href="">OUR AGENTS</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="" class="contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+
+      <div class="apartment_main">
+        <span class="">4 Beds- 2Bath- 1200 sq ft</span>
+        <div class="select_section">
+          <span class="sel_main">Amazing apartment for family</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            vero doloremque illo,
+          </p>
+          <span class="currency">$ 890000</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="button_section">
+      <div class="search_content">
+        <label for="item" class="search_icon">
+            <i class="material-symbols-outlined">
+                search
+            </i>
+          <input type="text" name="item" id="" placeholder="Enter Keyword...." />
+        </label>
+      </div>
+
+      <div class="btns_buttons">
+        <button type="button">Status</button>
+        <button type="button">Type</button>
+        <button type="button">Price</button>
+        <button type="button" class="bed"><i class="material-symbols-outlined">
+            king_bed
+        </i>Beds</button>
+        <button type="button" class="set"><i class="material-symbols-outlined">
+            settings
+        </i>Advance</button>
+        <button type="submit" class="search">Search</button>
+      </div>
+    </section>
+  </body>
 </html>
